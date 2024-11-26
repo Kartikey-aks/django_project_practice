@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,13 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tree house code</title>
+    <!-- <link rel="stylesheet" href="../static/style.css"> -->
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
 <body>
     <section id="sec">Enhance your design process with <a href="">ChatGPT for Designers</a></section>
     <header id="head">
         <div class="inner">
-            <img src="./logo.jpeg" alt="" id="logo" />
+            <img src="../static/images/logo.jpeg" alt="" id="logo" />
             <nav>
                 <ul>
                     <li><a href="https://teamtreehouse.com/plans">Plans</a></li>
@@ -39,7 +42,7 @@
                     </div>
                 </form>
             </div>
-            <div class="right"><img src="./rightImg.png" alt="" id="rightimg" /></div>
+            <div class="right"><img src="../static/images/rightImg.png" alt="" id="rightimg" /></div>
         </section>
         <div class="inner">
             <nav class="options">
@@ -54,7 +57,7 @@
         <section class="cover2">
             <div class="covertop">
                 <div class="coverleft">
-                    <img src="./topleft.png" alt="">
+                    <img src="../static/images/topleft.png" alt="">
                     <div>
                         <h2>Expert-led video courses for beginners and other skill levels</h2>
                         <p>
@@ -64,7 +67,7 @@
                     </div>
                 </div>
                 <div class="coverleft">
-                    <img src="./topright.png" alt="">
+                    <img src="../static/images/topright.png" alt="">
                     <div>
                         <h2>In-demand topics for Developers and Designers</h2>
                         <p>
@@ -76,7 +79,7 @@
             </div>
             <div class="coverbottom">
                 <div class="coverleft">
-                    <img src="./bottomleft.png" alt="">
+                    <img src="../static/images/bottomleft.png" alt="">
                     <div>
                         <h2>Segment your learning with Tracks</h2>
                         <p>
@@ -86,7 +89,7 @@
                     </div>
                 </div>
                 <div class="coverleft">
-                    <img src="./bottomright.png" alt="">
+                    <img src="../static/images/bottomright.png" alt="">
                     <div>
                         <h2>Interactive learning</h2>
                         <p>
@@ -98,13 +101,13 @@
             </div>
         </section>
         <div class="sign">
-            <img src='./signin.png' class="signup" />
+            <img src='../static/images/signin.png' class="signup" />
             <input type="submit" value="Sign Up Now" />
         </div>
         <section class="cover2">
             <div class="covertop">
                 <div class="cvrleft">
-                    <img src="./bottombottomleft.png" alt="">
+                    <img src="../static/images/bottombottomleft.png" alt="">
                     <h2>100 Days of Code</h2>
                     <p>
                         Transform your life by committing to learning for 30 minutes a day for a hundred days. You’ll
@@ -118,7 +121,7 @@
                     </div>
                 </div>
                 <div class="cvrright">
-                    <img src="./bottombottomright.png" alt="">
+                    <img src="../static/images/bottombottomright.png" alt="">
                     <h2>Networking</h2>
                     <p>
                         Join a lively and supportive community of students on the Treehouse forums to network, get help,
@@ -130,7 +133,7 @@
                 </div>
             </div>
             <div class="coverflower">
-                <img src="./flower.png" alt="" id="flower" />
+                <img src="../static/images/flower.png" alt="" id="flower" />
             </div>
         </section>
         <section class="cover">
@@ -152,12 +155,12 @@
         </section>
         <div class="companylogoh">
             <h1>Companies employing Treehouse students</h1>
-            <img src="./companylogo.png" alt="" class="comlogo">
+            <img src="../static/images/companylogo.png" alt="" class="comlogo">
         </div>
         <div class="resultlog">
             <div class="covertop">
                 <div class="result">
-                    <img src="./results.png" alt="" id="imgresult">
+                    <img src="../static/images/results.png" alt="" id="imgresult">
                 </div>
                 <div class="resultright">
                     <h1>Not sure where to start?</h1>
@@ -174,7 +177,7 @@
             <p>achieve their dreams.</p>
         </div>
         <div class="sign">
-            <img src="./malina.png" alt="" class="signupmalina">
+            <img src="../static/images/malina.png" alt="" class="signupmalina">
             <input type="submit" value="Malina's Story" id="malinabutton" />
         </div>
         <div class="malina2btn">
@@ -329,7 +332,7 @@
             </div>
         </div>
         <div class="footerlogo">
-            <div id="footerlogoimg"><img src="../footer logo.png" alt=""></div>
+            <div id="footerlogoimg"><img src="../static/images/footer logo.png" alt=""></div>
             <div><a href="https://teamtreehouse.com/terms"><span>Terms & Conditions</span></a><a
                     href="https://teamtreehouse.com/privacy">Privacy</a></div>
             <div>© 2023 Treehouse Island, Inc.</div>
